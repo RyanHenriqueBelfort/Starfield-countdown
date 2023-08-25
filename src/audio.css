@@ -1,0 +1,48 @@
+audio {
+            width: 25%;
+            height: 10%;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        /* Estilos para os controles de áudio */
+        audio::-webkit-media-controls {
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Estilos para os botões de reprodução/pausa e volume */
+        audio::-webkit-media-controls-play-button,
+        audio::-webkit-media-controls-mute-button {
+         
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Estilização para a barra de progresso */
+        audio::-webkit-media-controls-timeline,
+        audio::-webkit-media-controls-timeline-track-piece,
+        audio::-webkit-media-controls-timeline-track-fill-piece {
+        
+        }
+
+        /* Estilização para o polegar da barra de progresso */
+        audio::-webkit-media-controls-timeline-thumb {
+
+            border: none;
+            width: 8px;
+            height: 12px;
+            border-radius: 4px;
+        }
+
+        /* Estilização para os tempos de reprodução */
+        audio::-webkit-media-controls-current-time-display,
+        audio::-webkit-media-controls-time-remaining-display {
+            font-size: 14px;
+            color: #333;
+        }
